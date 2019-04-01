@@ -22,7 +22,7 @@ class IDSevenStyle(Style):
         Comment.Preproc:            'noitalic #808080',
         Comment.Special:            'noitalic bold',
         
-        Keyword:                    aubergine,
+        Keyword:                    'bold ' + aubergine,
         Keyword.Constant:           '#660E7A',
         Keyword.Type:               "nobold #B00040", 
         Operator.Word:              "bold",

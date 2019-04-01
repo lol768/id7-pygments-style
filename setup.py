@@ -12,6 +12,6 @@ setup(
     packages     = ['id7'], 
     entry_points = '''
     [pygments.styles]
-    id7 = id7:IDSevenStyle
+    idseven = id7:IDSevenStyle
     '''
 ) 
