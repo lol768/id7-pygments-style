@@ -1,17 +1,17 @@
 """ 
-A UA style for Pygments
+An ID7 style for Pygments
 """ 
 from setuptools import setup 
 
 setup( 
-    name         = 'ua', 
+    name         = 'id7', 
     version      = '1.1', 
     description  = __doc__, 
-    author       = "Pieter Belmans", 
+    author       = "Adam Williams, Pieter Belmans", 
     install_requires = ['pygments'],
-    packages     = ['ua'], 
+    packages     = ['id7'], 
     entry_points = '''
     [pygments.styles]
-    ua = ua:UAStyle
+    id7 = id7:IDSevenStyle
     '''
 ) 
