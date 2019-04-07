@@ -28,7 +28,7 @@ class IDSevenStyle(Style):
         Operator.Word:              "bold",
         
         Name.Attribute:             "#0000FF", 
-        
+        Name.Tag:                   'bold ' + aubergine,
         String:                     '#008000',
         String.Escape:              '#000080',
         String.Interpol:            '#00B8BB',
