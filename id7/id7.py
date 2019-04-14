@@ -14,7 +14,9 @@ class IDSevenStyle(Style):
     default_style = ""
     
     aubergine = "#5b3069"
-    skyblue = "#204f79" 
+    skyblue = "#204f79"
+    brightskyblue = "#00b2dd"
+    brightemeraldgreen = "#7ecbb6"
     styles = {
         Whitespace:                 '#bbbbbb',
         
@@ -27,13 +29,13 @@ class IDSevenStyle(Style):
         Keyword.Type:               "nobold #B00040", 
         Operator.Word:              "bold",
         
-        Name.Attribute:             "#0000FF", 
+        Name.Attribute:             brightemeraldgreen, 
         Name.Tag:                   'bold ' + aubergine,
         String:                     '#008000',
         String.Escape:              '#000080',
         String.Interpol:            '#00B8BB',
-        String.Regex:               '#0000ff',
-        Number:                     '#0000ff',
+        String.Regex:               skyblue,
+        Number:                     skyblue,
         Generic.Heading:        '#999999',
         Generic.Subheading:     '#aaaaaa',
         Generic.Deleted:        'bg:#ffdddd #000000',
