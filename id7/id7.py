@@ -16,7 +16,7 @@ class IDSevenStyle(Style):
     aubergine = "#5b3069"
     skyblue = "#204f79"
     brightskyblue = "#00b2dd"
-    brightemeraldgreen = "#7ecbb6"
+    warwickgrey = "#3f4246"
     styles = {
         Whitespace:                 '#bbbbbb',
         
@@ -29,7 +29,8 @@ class IDSevenStyle(Style):
         Keyword.Type:               "nobold #B00040", 
         Operator.Word:              "bold",
         
-        Name.Attribute:             brightemeraldgreen, 
+        Name.Attribute:             warwickgrey,
+        Name.Decorator:             warwickgrey,
         Name.Tag:                   'bold ' + aubergine,
         String:                     '#008000',
         String.Escape:              '#000080',
