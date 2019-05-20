@@ -1,3 +1,1 @@
-import id7
-
-IDSevenStyle = id7.IDSevenStyle
+from id7.styles import IDSevenStyle
